@@ -3,9 +3,12 @@
     height: 5em;
     border-radius: 3em;
     
-    background-color: #654478;
-    color: #cfd1d3;
-    
+    background-color: #c5d5e5;
+    color: black;
+    background-image: url("../img/githubLogo.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,10 +18,10 @@
     text-align: center;
     line-height: 4.5em;
 
-    box-shadow: 0 0 0.2em black;
+    box-shadow: 0 0 2em black inset;
 }
 
 .conterObject:hover{
-    box-shadow: 0 0 0.8em black;
+    box-shadow: 0 0 0.1em black, 0 0 1.4em black inset;
     cursor: pointer;
 }
