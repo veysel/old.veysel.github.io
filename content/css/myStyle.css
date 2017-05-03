@@ -1,14 +1,8 @@
-.conterObject{
+.centerObject{
     width: 5em;
     height: 5em;
     border-radius: 3em;
     
-    background-color: #c5d5e5;
-    color: black;
-    background-image: url("../img/githubLogo.png");
-    background-repeat: no-repeat;
-    background-size: 5em;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,7 +15,37 @@
     box-shadow: 0 0 2em black inset;
 }
 
-.conterObject:hover{
+.centerObject:hover{
     box-shadow: 0 0 0.1em black, 0 0 1.4em black inset;
     cursor: pointer;
+}
+
+.githubObject{
+    background-color: #c5d5e5;
+    color: black;
+    background-image: url("../img/githubLogo.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+}
+
+.blogObject{
+    background-color: #dfed93;
+    color: black;
+    background-image: url("../img/blogLogo.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+
+    margin-top: -11em;
+    margin-left: -13em;
+}
+
+.photoObject{
+    background-color: #dfed93;
+    color: black;
+    background-image: url("../img/photoLogo.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+
+    margin-top: 2em;
+    margin-left: 15em;
 }
