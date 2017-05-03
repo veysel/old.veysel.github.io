@@ -1,4 +1,4 @@
-.conterObject{
+.centerObject{
     width: 5em;
     height: 5em;
     border-radius: 3em;
@@ -21,7 +21,7 @@
     box-shadow: 0 0 2em black inset;
 }
 
-.conterObject:hover{
+.centerObject:hover{
     box-shadow: 0 0 0.1em black, 0 0 1.4em black inset;
     cursor: pointer;
 }
